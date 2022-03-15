@@ -9,13 +9,17 @@ body{
    line-height: 1.6;
    font-weight: 600;
    font-size: 1rem;
-   padding: 1em;
+   padding: 0.6em;
 }
 
 .container{
-   width: 760px;
-   max-width: 560px;
+   width: 750px;
+   max-width: 500px;
    margin: 0 auto;
+}
+
+section{
+   margin: 1em;
 }
 
 #navbar{
@@ -65,7 +69,7 @@ body{
 
 .img-section img{
    width: 200px;
-   margin: 1em;
+   margin: 0.8em;
 }
 
 h2{
