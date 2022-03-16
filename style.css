@@ -108,3 +108,33 @@ p:hover{
    width: 100%;
    max-width: 100%;
 }
+
+@media only screen and (min-width: 769px){
+   .container{
+     width: 1024px;
+     position: relative;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+   }
+
+   #main-doc{
+      width: 70%;
+   }
+
+   #navbar{
+      width: 25%;
+      align-self: flex-start;
+      margin-top: 1em;
+      position: fixed;
+      left: 0;
+      text-align: center;
+      margin-left: 0.8em;
+   }
+   
+
+
+
+
+
+}
