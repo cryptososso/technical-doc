@@ -12,9 +12,14 @@ body{
 }
 
 .container{
-   width: 750px;
-   max-width: 500px;
+   width: 760px;
+   max-width: 90%;
    margin: 0 auto;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
 }
 
 section{
@@ -39,8 +44,8 @@ section{
    text-decoration: none;
    color: #000;
    background-color: lightblue;
-   width: 25%;
-   font-size: 0.9rem;
+   width: 100%;
+   font-size: 1rem;
    border: 1px solid #fff;
    padding: 0.5em;
 }
@@ -58,17 +63,17 @@ section{
 }
 
 .img-section{
-   width: 760px;
-   max-width: 560px;
+   width: 90%;
+   max-width: 90%;
    margin: 0 auto;
    display: grid;
-   grid-template-columns: repeat(2, 1fr);
-   margin-bottom: 3em;
+   grid-template-columns: 50% 50%;
+   margin-bottom: 1.5em;
 }
 
 .img-section img{
-   width: 200px;
-   margin: 0.8em;
+   width: 90%;
+   max-width: 90%;
 }
 
 h2{
@@ -90,6 +95,11 @@ h3{
 p{
    font-size: 1.2rem;
    margin-bottom: 1em;
+   opacity: 0.5;
+}
+
+p:hover{
+   opacity: 1;
 }
 
 .main-body img{
