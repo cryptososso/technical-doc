@@ -137,15 +137,45 @@ p:hover{
 
 @media only screen and (max-width: 500px){
    .container{
-     width: 500px;
-     max-width: 90%;
+     width: 280px;
+     max-width: 100%;
    }
 
    .main-section{
-      width: 300px;
-      max-width: 90%;
-      font-size: 1.3rem;
+      width: 200px;
+      max-width: 100%;
+      font-size: 1rem;
    }
+
+   h1{
+      font-size: 1rem;
+   }
+
+   .nav-link{
+   font-size: 0.8rem;
+   border: 1px solid #fff;
+   padding: 0.5em;
+   text-align: center;
+ }
+
+
+.img-section img{
+   width: 70%;
+   max-width: 70%;
+}
+
+header h2{
+   font-size: 1rem;
+}
+
+.main-body h3{
+   font-size: 1rem;
+}
+
+.main-body p{
+   font-size: 0.8rem;
+}
+
 
 
 }
