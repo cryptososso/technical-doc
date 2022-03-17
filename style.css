@@ -138,11 +138,13 @@ p:hover{
 @media only screen and (max-width: 500px){
    .container{
      width: 500px;
-     max-width: 100%;
-     display: flex;
-     flex-direction: column;
-     margin: 0 auto;
-     font-size: 1rem;
+     max-width: 90%;
+   }
+
+   .main-section{
+      width: 300px;
+      max-width: 90%;
+      font-size: 1.3rem;
    }
 
 
